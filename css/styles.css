@@ -148,7 +148,7 @@ a.cta-btn {
 }
 
 a.cta-btn:hover {
-  background-color: #FE5701;
+  background-color: #008c95;
 }
 
 a.ghost-btn {
@@ -165,8 +165,8 @@ a.ghost-btn {
 
 a.ghost-btn:hover {
   color: #E5E7EB;
-  border: 1px #FE5701 solid;
-  background-color: #FE5701;
+  border: 1px #008c95 solid;
+  background-color: #008c95;
 }
 
 @media screen and (max-width: 768px) {
@@ -686,6 +686,7 @@ a.ghost-btn:hover {
 /* 購買教學 */
 .starter-block {
   position: relative;
+  z-index: 2;
 }
 
 .starter-block::before {
@@ -765,19 +766,23 @@ a.ghost-btn:hover {
   }
   .starter-block .item ul li {
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
   }
   .starter-block .item ul li:nth-child(3) {
     margin-bottom: 32px;
   }
   .starter-block .item ul li p.step {
     font-size: calc(1.4 * var(--font-size));
+    text-align: center;
   }
   .starter-block .item ul li p.title {
     margin-bottom: 20px;
     font-size: calc(2 * var(--font-size));
+    text-align: center;
   }
   .starter-block .item ul li .ghost-btn {
+    display: table;
+    margin: 0 auto;
     padding: 12px 28px;
   }
 }
