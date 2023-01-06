@@ -283,6 +283,7 @@
 			ul{
 				li{
 					width: 100%;
+					margin-bottom: 30px;
 					i.icon{
 						width: 36px;
 						height: 36px;
@@ -291,6 +292,7 @@
 						width: calc(100% - calc(4 * var(--font-size)) - 16px);
 						margin-top: 4px;
 						p.title{
+							margin-bottom: 4px;
 							font-size: calc(2 * var(--font-size));
 						}
 						p.desc{
@@ -430,11 +432,10 @@
 						margin-bottom: 20px;
 					}
 					p.title{
-						margin-bottom: 12px;
+						margin-bottom: 8px;
 						font-size: calc(2 * var(--font-size));
 					}
 					p.desc{
-						margin-bottom: 4px;
 						font-size: calc(1.6 * var(--font-size));
 					}
 				}
@@ -523,14 +524,14 @@
 					width: 100%;
 					margin-bottom: 40px;
 					&:nth-child(3){
-						margin-bottom: 32px;
+						margin-bottom: 30px;
 					}
 					p.step{
 						font-size: calc(1.4 * var(--font-size));
 						text-align: center;
 					}
 					p.title{
-						margin-bottom: 20px;
+						margin-bottom: 16px;
 						font-size: calc(2 * var(--font-size));
 						text-align: center;
 					}

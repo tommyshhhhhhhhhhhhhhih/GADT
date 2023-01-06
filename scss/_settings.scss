@@ -44,9 +44,9 @@ h2{
 @media screen and (max-width: 428px) {
 	h2{
 		margin: 0 auto 48px;
-		font-size: calc(3.2 * var(--font-size));
+		font-size: calc(3 * var(--font-size));
 		&::before, &::after{
-			transform: translateY(11px);
+			transform: translateY(12px);
 		}
 		&::before{
 			margin-right: 12px;
