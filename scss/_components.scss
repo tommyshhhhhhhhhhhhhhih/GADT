@@ -312,7 +312,6 @@
 /* 安心保障 */
 .assure-block{
 	position: relative;
-	z-index: -1;
 	&::before{
 		display: block;
 		content: '';

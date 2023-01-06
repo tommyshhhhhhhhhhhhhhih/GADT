@@ -547,7 +547,6 @@ a.ghost-btn:hover {
 /* 安心保障 */
 .assure-block {
   position: relative;
-  z-index: -1;
 }
 
 .assure-block::before {
