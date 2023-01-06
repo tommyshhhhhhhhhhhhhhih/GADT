@@ -435,6 +435,10 @@ a.ghost-btn:hover {
 }
 
 /* GADT 優勢 */
+.about-block {
+  z-index: 2;
+}
+
 .about-block .item ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -463,6 +467,7 @@ a.ghost-btn:hover {
           justify-content: space-between;
   width: calc(100% / 2 - 40px);
   margin-bottom: 50px;
+  z-index: 2;
 }
 
 .about-block .item ul li:nth-child(5), .about-block .item ul li:nth-child(6) {
@@ -542,6 +547,7 @@ a.ghost-btn:hover {
 /* 安心保障 */
 .assure-block {
   position: relative;
+  z-index: -1;
 }
 
 .assure-block::before {

@@ -215,6 +215,7 @@
 
 /* GADT 優勢 */
 .about-block{
+	z-index: 2;
 	// padding-top: 150px;
 	.item{
 		ul{
@@ -229,6 +230,7 @@
 				justify-content: space-between;
 				width: calc(100% / 2 - 40px);
 				margin-bottom: 50px;
+				z-index: 2;
 				&:nth-child(5), &:nth-child(6){
 					margin-bottom: 0;
 				}
@@ -310,6 +312,7 @@
 /* 安心保障 */
 .assure-block{
 	position: relative;
+	z-index: -1;
 	&::before{
 		display: block;
 		content: '';
