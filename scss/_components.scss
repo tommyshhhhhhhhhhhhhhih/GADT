@@ -229,7 +229,7 @@
 				justify-content: space-between;
 				width: calc(100% / 2 - 40px);
 				margin-bottom: 50px;
-				&:nth-child(5){
+				&:nth-child(5), &:nth-child(6){
 					margin-bottom: 0;
 				}
 				i.icon{
@@ -269,9 +269,6 @@
 				li{
 					width: calc(100% / 2 - 30px);
 					margin-bottom: 50px;
-					&:nth-child(5){
-						margin-bottom: 0;
-					}
 				}
 			}
 		}
@@ -284,6 +281,9 @@
 				li{
 					width: 100%;
 					margin-bottom: 30px;
+					&:nth-child(5){
+						margin-bottom: 30px;
+					}
 					i.icon{
 						width: 36px;
 						height: 36px;

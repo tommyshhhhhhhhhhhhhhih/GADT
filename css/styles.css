@@ -465,7 +465,7 @@ a.ghost-btn:hover {
   margin-bottom: 50px;
 }
 
-.about-block .item ul li:nth-child(5) {
+.about-block .item ul li:nth-child(5), .about-block .item ul li:nth-child(6) {
   margin-bottom: 0;
 }
 
@@ -512,14 +512,14 @@ a.ghost-btn:hover {
     width: calc(100% / 2 - 30px);
     margin-bottom: 50px;
   }
-  .about-block .item ul li:nth-child(5) {
-    margin-bottom: 0;
-  }
 }
 
 @media screen and (max-width: 428px) {
   .about-block .item ul li {
     width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-block .item ul li:nth-child(5) {
     margin-bottom: 30px;
   }
   .about-block .item ul li i.icon {
