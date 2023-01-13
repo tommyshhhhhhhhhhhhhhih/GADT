@@ -916,16 +916,37 @@ a.ghost-btn:hover {
 }
 
 .connect-block div a.cta-btn {
-  padding: 12px 28px;
-  font-size: calc(2 * var(--font-size));
+  padding: 12px 32px;
+  font-size: calc(1.8 * var(--font-size));
   font-weight: 500;
-  background: linear-gradient(45deg, #2B52DC 0%, #23E5A2 100%);
+  background: linear-gradient(45deg, #23e5a2 0%, #2b52dc 100%);
   -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 
-.connect-block div a.cta-btn:hover {
-  opacity: .6;
+.connect-block div a.cta-btn span {
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 3;
+}
+
+.connect-block div a.cta-btn:after {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #2b52dc 0%, #23e5a2 100%);
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+}
+
+.connect-block div a.cta-btn:hover:after {
+  opacity: 1;
 }
 
 @media screen and (max-width: 768px) {
