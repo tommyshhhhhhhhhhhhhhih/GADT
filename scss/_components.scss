@@ -647,7 +647,7 @@
 .connect-block{
 	width: 100%;
 	max-width: 1440px;
-	height: 320px;
+	height: 290px;
 	border: 1px #2C3550 solid;
 	border-radius: 6px;
 	background-image: url(../img/bg-connect.svg);
@@ -665,14 +665,14 @@
 		transform: translateY(-50%);
 		p{
 			margin: 0 auto 40px;
-			font-size: calc(5 * var(--font-size));
+			font-size: calc(4 * var(--font-size));
 			font-weight: bold;
 			color: #fff;
 			text-align: center;
 			text-shadow: 0px 0px 30px rgba(0, 0, 0, .5);;
 		}
 		a.cta-btn{
-			padding: 16px 40px;
+			padding: 12px 28px;
 			font-size: calc(2 * var(--font-size));
 			font-weight: 500;
 			background:linear-gradient(45deg, #2B52DC 0%, #23E5A2 100%);
@@ -685,10 +685,11 @@
 }
 @media screen and (max-width: 768px) {
 	.connect-block{
-		height: 320px;
+		height: 250px;
 		div{
 			p{
 				width: 90%;
+				margin-bottom: 30px;
 				font-size: calc(4.2 * var(--font-size));
 			}
 		}
@@ -699,7 +700,7 @@
 		height: 225px;
 		div{
 			p{
-				margin-bottom: 30px;
+				margin-bottom: 20px;
 				font-size: calc(3 * var(--font-size));
 			}
 			a.cta-btn{
