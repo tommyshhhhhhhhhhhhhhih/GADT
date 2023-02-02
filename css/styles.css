@@ -422,15 +422,19 @@ a.ghost-btn:hover {
     margin-bottom: 40px;
     font-size: calc(1.6 * var(--font-size));
   }
+  .kv-block .kv-desc .box {
+    display: table;
+    margin: 0 auto;
+  }
   .kv-block .kv-desc .box::after {
-    width: 140px;
-    height: 45px;
-    right: -10px;
-    bottom: -10px;
+    display: none;
   }
   .kv-block .kv-desc .box a.cta-btn {
     padding: 12px 28px;
     font-size: calc(1.6 * var(--font-size));
+  }
+  .kv-block .kv-img {
+    margin-top: 0;
   }
 }
 
