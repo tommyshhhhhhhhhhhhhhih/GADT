@@ -111,7 +111,7 @@ h2::after {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   h2 {
     margin: 0 auto 48px;
     font-size: calc(3 * var(--font-size));
@@ -175,7 +175,7 @@ a.ghost-btn:hover {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   a.ghost-btn {
     font-size: calc(1.6 * var(--font-size));
   }
@@ -406,7 +406,7 @@ a.ghost-btn:hover {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   .kv-block {
     padding-top: 20px;
   }
@@ -527,7 +527,7 @@ a.ghost-btn:hover {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   .about-block .item ul li {
     width: 100%;
     margin-bottom: 30px;
@@ -669,7 +669,7 @@ a.ghost-btn:hover {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   .assure-block::before {
     width: 300px;
     height: 300px;
@@ -773,7 +773,7 @@ a.ghost-btn:hover {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   .starter-block::before {
     width: 30px;
     height: 100px;
@@ -870,7 +870,7 @@ a.ghost-btn:hover {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   .partner-block::after {
     width: 300px;
     height: 300px;
@@ -960,7 +960,7 @@ a.ghost-btn:hover {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   .connect-block {
     height: 225px;
   }
@@ -1038,7 +1038,7 @@ main .anchor-point {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
   main section {
     padding: 60px 0;
   }

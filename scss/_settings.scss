@@ -41,7 +41,7 @@ h2{
 		}
 	}
 }//max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
 	h2{
 		margin: 0 auto 48px;
 		font-size: calc(3 * var(--font-size));
@@ -55,7 +55,7 @@ h2{
 			margin-left: 12px;
 		}
 	}
-}//max-width: 428px
+}//max-width: 430px
 
 
 //按鈕樣式
@@ -98,12 +98,12 @@ a{
 		}
 	}
 }//max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
 	a{
 		&.ghost-btn{
 			font-size: calc(1.6 * var(--font-size));
 		}
 	}
-}//max-width: 428px
+}//max-width: 430px
 
 
