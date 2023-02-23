@@ -513,11 +513,12 @@ a.ghost-btn:hover {
 }
 
 .about-block .item ul li .box p.desc a {
+  color: #00A8B3;
   text-decoration: underline;
 }
 
 .about-block .item ul li .box p.desc a:hover {
-  color: #00A8B3;
+  color: #008c95;
 }
 
 @media screen and (max-width: 768px) {
@@ -638,11 +639,12 @@ a.ghost-btn:hover {
 }
 
 .assure-block .item ul li p.desc a {
+  color: #00A8B3;
   text-decoration: underline;
 }
 
 .assure-block .item ul li p.desc a:hover {
-  color: #00A8B3;
+  color: #008c95;
 }
 
 @media screen and (max-width: 768px) {
