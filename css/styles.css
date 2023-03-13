@@ -1267,7 +1267,7 @@ header .right-header .account a.cta-btn {
     font-weight: 500;
   }
   header .right-header .language {
-    margin-right: calc(1.6 * var(--font-size));
+    margin-right: calc(1.2 * var(--font-size));
   }
   header .right-header .language button p {
     display: none;
