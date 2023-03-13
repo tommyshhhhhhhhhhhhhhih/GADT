@@ -1277,6 +1277,7 @@ header .right-header .account a.cta-btn {
   }
   header .right-header .language ul {
     width: calc(100% + calc(11 * var(--font-size)));
+    margin: calc(1.6 * var(--font-size)) auto 0;
   }
 }
 
