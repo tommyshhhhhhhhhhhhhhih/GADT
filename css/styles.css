@@ -1103,17 +1103,114 @@ header nav ul a:hover {
   color: #00A8B3;
 }
 
-header .account a {
-  margin: 0 10px;
+header .right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .right-header .language {
+  margin-right: calc(3.2 * var(--font-size));
+  position: relative;
+}
+
+header .right-header .language button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+header .right-header .language button img.ic-language {
+  width: calc(2.4 * var(--font-size));
+}
+
+header .right-header .language button p {
+  margin: 0 12px 0 8px;
+  font-size: calc(1.4 * var(--font-size));
+  line-height: normal;
+}
+
+header .right-header .language button img.ic-arrow {
+  width: calc(1.2 * var(--font-size));
+  padding-top: 2px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+header .right-header .language button img.ic-arrow.rotate-180 {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+header .right-header .language ul {
+  display: none;
+  width: calc(100% + calc(2 * var(--font-size)));
+  margin: calc(1.2 * var(--font-size)) auto 0;
+  padding: calc(2.4 * var(--font-size)) calc(1 * var(--font-size));
+  background-color: rgba(13, 25, 43, 0.8);
+  border-radius: 6px;
+  border: 1px #2C3550 solid;
+  -webkit-box-shadow: 0px 0px 30px rgba(66, 232, 224, 0.05);
+          box-shadow: 0px 0px 30px rgba(66, 232, 224, 0.05);
+  font-size: calc(1.4 * var(--font-size));
+  position: absolute;
+  top: calc(2.4 * var(--font-size));
+  right: 50%;
+  -webkit-transform: translate(50%, 0);
+          transform: translate(50%, 0);
+}
+
+header .right-header .language ul li {
+  margin-bottom: calc(1.6 * var(--font-size));
+  text-align: center;
+}
+
+header .right-header .language ul li:last-child {
+  margin-bottom: 0;
+}
+
+header .right-header .language ul li a {
+  padding: 0 calc(2.6 * var(--font-size));
+}
+
+header .right-header .language ul li a:hover {
+  color: #00A8B3;
+}
+
+header .right-header .account a {
   font-size: calc(1.6 * var(--font-size));
 }
 
-header .account a:hover {
+header .right-header .account a:hover {
   color: #E5E7EB;
 }
 
-header .account a.cta-btn {
-  margin-right: 0;
+header .right-header .account a.cta-btn {
   padding: 12px 28px;
   font-weight: 500;
   color: #E5E7EB;
@@ -1169,17 +1266,8 @@ header .account a.cta-btn {
     padding: 12px 32px;
     font-weight: 500;
   }
-  header .account a {
-    margin: 0 15px;
-    font-size: calc(1.8 * var(--font-size));
-    color: #000;
-  }
-  header .account a:hover {
-    color: #E5E7EB;
-  }
-  header .account a.cta-btn {
-    padding: 12px 36px;
-    color: #fff;
+  header .right-header .language {
+    margin-right: calc(2 * var(--font-size));
   }
 }
 

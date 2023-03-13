@@ -24,6 +24,12 @@ $(document).ready(function() {
         }
     });
 
+    //language
+    $(".language button").click(function(){
+        $(".language ul").delay().slideToggle();
+        $(".ic-arrow").toggleClass("rotate-180");
+    })
+
     //mobile nav
 	$('.nav-icon').click(function(){
 		$(this).toggleClass('open');
