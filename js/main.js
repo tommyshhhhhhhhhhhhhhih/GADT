@@ -33,6 +33,8 @@ $(document).ready(function() {
     //mobile nav
 	$('.nav-icon').click(function(){
 		$(this).toggleClass('open');
+        $(".language ul").delay().hide();
+        $(".ic-arrow").removeClass("rotate-180");
 	});
 
     var windowWidth = window.innerWidth;
